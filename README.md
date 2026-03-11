@@ -20,8 +20,9 @@ To write a program to implement the Decision Tree Regressor Model for Predicting
 /*
 Program to implement the Decision Tree Regressor Model for Predicting the Salary of the Employee.
 Developed by: Bristo AK
-RegisterNumber:  212225230037
+RegisterNumber:   212225230037
 */
+```
 ```
 # Import required libraries
 import pandas as pd
@@ -84,7 +85,7 @@ new_exp = [[5]]  # 5 years experience
 predicted_salary = model.predict(new_exp)
 print("\nPredicted Salary for 5 years experience:", predicted_salary[0])
 ```
-```
+
 
 ## Output:
 ![alt text](<Screenshot 2026-03-11 081742.png>)
